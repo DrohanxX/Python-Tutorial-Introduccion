@@ -6,7 +6,6 @@ Son listas inmutables, no se pueden modificar despues de su cracion
 
 No permiten añadir, eliminar, mover elementos
 Si permiten extraer porciones, pero el resultado es una tupla nueva
-No permiten busquedas (no index)
 Si permiten comprobar si un elemento se encuentra en una tupla
 """
 
