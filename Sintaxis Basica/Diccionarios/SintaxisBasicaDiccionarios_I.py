@@ -36,6 +36,7 @@ print(miDiccionario)
 
 #Añadir una tupla a un diccionario
 
+
 miTupla = ["España", "Francia", "Reino unido", "Alemania"]
 
 miDiccionario2 = {miTupla[0]:"Madrid", miTupla[1]:"Paris", miTupla[2]:"Londres", miTupla[3]:"Berlin"}
