@@ -6,9 +6,7 @@
 
 #Tipo range
 
-#Notaciones especiales con print
-
-#El argumento "end" determinara como terminara la impresion 
+#El argumento "end" determinara como terminara la impresion
 
 for i in ["Pildoras","Informaticas",3]:
 
@@ -43,3 +41,8 @@ else:
 
     print("\n email incorrecto")
 
+#Range
+
+for i in range(5):
+
+    print(i)
