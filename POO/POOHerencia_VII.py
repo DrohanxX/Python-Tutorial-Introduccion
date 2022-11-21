@@ -58,9 +58,11 @@ class Motocicleta(Automoviles):
 
         print("Marca: ", self.marca, "\nModelo: ", self.modelo, "\nEn marcha: ", self.enmarcha, "\nAcelerando: ", self.acelera, "\nFrenando: ",self.frena, "\n", self.hcaballito)
 
-class VElectricos():
+class VElectricos(Automoviles):
 
-    def __init__(self):
+    def __init__(self, marca, modelo):
+
+        super().__init__(marca, modelo)
         
         self.autonomia = 100
 
